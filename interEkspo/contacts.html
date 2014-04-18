@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- general block -->
+ <div class="wrapper">
+ 	<!-- header -->
+	<div class="header">
+		<header>
+			<!--contacts and slogan-->
+			<div class="head">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.jpg" alt="Интер экспо">
+					</a>
+				</div>
+				<div class="slogan">
+					<p>Дизайн и строительство</p><p> стандартных</p><p> и эксклюзивных стендов</p>
+				</div>
+				<div class="contact">
+					<p class="phone"><span class="prev_phone">+7 (495)</span>
+						<span class="post_phone">783-91-59</span></p>
+					<p class="address">Адрес: Россия, 129226, Москва</p>
+					<p class="address">ул. Сельскохозяйственная, дом 4, стр. 16</p>
+					<p class="address">Ближайшая станция метро: ВДНХ</p>
+				</div>
+			</div>
+			<!--slider and menu-->
+			<div class="slider">
+				<nav class="menu">
+					<li><a href="#">Главная</a></li>
+					<li class="activ"><a href="#">О компании</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li ><a href="#" >Стандартные стенды</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li class="right_icon">
+						<a href="#" class="home"></a>
+						<a href="#" class="map"></a>
+						<a href="#" class="mail"></a>
+					</li>
+				</nav>
+				<div class="slider_slogan">
+					<p >Длинный заголовк слайдера sdfsdfsdfsdfsdfsdfsdfs</p>
+				</div>
+				<div class="slider-wrapper theme-default">
+				    <div id="slider" class="nivoSlider">
+						<img src="images/slide-1.jpg" height="179" width="1000" alt="">
+						<img src="images/slide-2.jpg" height="179" width="1000" alt="">
+				    </div>
+				</div>
+			</div>
+		</header>
+	</div><!-- end header -->
+	<div class="main">
+		<section>
+			<!-- content -->
+			<div class="content content_contact">
+				<h1>Контактная информация</h1>
+				<div class="block_contant">
+					<div class="c_map">
+						<img src="images/map.jpg" alt="this is image map yandex, but your need widget">
+						<a href="#">Офис компании ИНТЕРЬЕР ЭКСПО и ближайшие к нему станции метро</a>
+					</div>
+					<div class="c_contact">
+						<p><b>Адрес:</b> Россия, 129226, Москва</p>
+						<p>ул. Сельскохозяйственная, дом 4, стр. 16</p>
+						<p>Ближайшая станция метро: ВДНХ</p>
+						<p><b>Проезд:</b> станция метро ВДНХ, далее:</p>
+						<ul>
+							<li>трамвай 17 до остановки "Сельскохозяйственная улица",</li>
+							<li>троллейбус 48 до остановки "Сельскохозяйственная улица, 1",</li>
+							<li>автобус 33 до остановки "Сельскохозяйственная улица, 1".</li>
+						</ul>
+						<p><b>Телефон: +7 (495) 783-9159, Факс: +7 (495) 783-9159</b></p>
+					</div>
+				</div>
+			</div><!-- end content -->
+		</section>
+ </div><!-- end main -->
+ </div><!-- end wrapper -->
+ <!-- this is footer -->
+ <div class="footer clearfix">
+ 	<footer>
+ 		<div class="footer_content">
+ 			<div class="foter_logo">
+ 				<a href="#"><img src="images/logo-bottom.jpg" alt=""></a>
+ 			</div>
+ 			<nav class="footer_menu">
+ 				<ul>
+ 					<li class="activ"><a href="#">Главная</a></li>
+ 					<li><a href="#">О компании</a></li>
+ 					<li><a href="#">Портфолио</a></li>
+ 					<li><a href="#">Стандартные стенды</a></li>
+ 					<li><a href="#">Услуги</a></li>
+ 					<li><a href="#">Контакты</a></li>
+ 				</ul>
+ 			</nav>
+ 			<p>&copy; 2012 — 2014 <b>«Интреэкспо»</b>, Электронная почта: <a href="mailto:support@interekspo.ru">support@interekspo.ru</a></p>
+ 		</div>
+ 	</footer>
+ </div><!-- end footer -->
+<script src="js/jquery.js"></script>
+<script src="js/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script>
+$(window).load(function() {
+    $('#slider').nivoSlider({
+    	controlNavThumbs: true,
+    	controlNav: false, 
+    	directionNavHide:false,
+    });
+});
+</script>
+</body>
+</html>

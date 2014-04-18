@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="wrapper">
+	<div class="header">
+		<header>
+			<!--contacts and slogan-->
+			<div class="head">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.jpg" alt="Интер экспо">
+					</a>
+				</div>
+				<div class="slogan">
+					<p>Дизайн и строительство</p><p> стандартных</p><p> и эксклюзивных стендов</p>
+				</div>
+				<div class="contact">
+					<p class="phone"><span class="prev_phone">+7 (495)</span>
+						<span class="post_phone">783-91-59</span></p>
+					<p class="address">Адрес: Россия, 129226, Москва</p>
+					<p class="address">ул. Сельскохозяйственная, дом 4, стр. 16</p>
+					<p class="address">Ближайшая станция метро: ВДНХ</p>
+				</div>
+			</div>
+			<!--slider and menu-->
+			<div class="slider">
+				<nav class="menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="portfolio.html">Портфолио</a></li>
+					<li class="activ"><a href="#" >Стандартные стенды</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+					<li class="right_icon">
+						<a href="#" class="home"></a>
+						<a href="#" class="map"></a>
+						<a href="#" class="mail"></a>
+					</li>
+				</nav>
+				<div class="slider_slogan">
+					<p >Длинный заголовк слайдера sdfsdfsdfsdfsdfsdfsdfs</p>
+				</div>
+				<div class="slider-wrapper theme-default">
+				    <div id="slider" class="nivoSlider">
+						<img src="images/slide-1.jpg" height="179" width="1000" alt="">
+						<img src="images/slide-2.jpg" height="179" width="1000" alt="">
+				    </div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="main">
+		<section>
+			<div class="content">
+				<h1>Наши услуги</h1>
+					<ul class="services">
+						<li><a href="#">Проектирование и строительство стандартных и эксклюзивных выставочных стендов</a></li>
+						<li class="activ"><a href="#">Разработка выставочной концепции и создание стенда фирмы с учетом маркетинговой задачи</a></li>
+						<li><a href="#">Подготовка технической документации индивидуальных проектов</a></li>
+						<li><a href="#">Консалтинг по вопросам участия в выставках</a></li>
+					</ul>
+				<p style="font-size: 24px; color:#141d0c; margin-top:52px;"><i>Главная задача компании – создать дружеские, партнерские отношения с клиентом!</i></p>
+			</div>
+		</section>
+		<section>
+			<div class="sidebar">
+			  <div class="left">
+				<h1>Доп. Услуги</h1>
+				<ul>
+					<li><a href="#">Дизайн интерьеров</a></li>
+					<li><a href="#">Подбор информации по тематическим выставкам;</a></li>
+					<li><a href="#">Плоттерные работы (резка, печать)</a></li>
+					<li><a href="#">Изготовление объемных букв</a></li>
+					<li><a href="#">Изготовление световых коробов</a></li>
+				</ul>
+			  </div>
+			</div>
+		</section>
+	</div>
+ </div>
+ <div class="footer clearfix">
+ 	<footer>
+ 		<div class="footer_content">
+ 			<div class="foter_logo">
+ 				<a href="#"><img src="images/logo-bottom.jpg" alt=""></a>
+ 			</div>
+ 			<nav class="footer_menu">
+ 				<ul>
+ 					<li class="activ"><a href="#">Главная</a></li>
+ 					<li><a href="#">О компании</a></li>
+ 					<li><a href="#">Портфолио</a></li>
+ 					<li><a href="#">Стандартные стенды</a></li>
+ 					<li><a href="#">Услуги</a></li>
+ 					<li><a href="#">Контакты</a></li>
+ 				</ul>
+ 			</nav>
+ 			
+ 			<p>&copy; 2012 — 2014 <b>«Интреэкспо»</b>, Электронная почта: <a href="mailto:support@interekspo.ru">support@interekspo.ru</a></p>
+ 			
+ 		</div>
+ 	</footer>
+ </div>
+<script src="js/jquery.js"></script>
+<script src="js/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script>
+$(window).load(function() {
+    $('#slider').nivoSlider({
+    	controlNavThumbs: true,
+    	controlNav: false, 
+    	directionNavHide:false,
+    });
+});
+</script>
+</body>
+</html>

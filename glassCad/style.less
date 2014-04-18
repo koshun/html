@@ -1,0 +1,152 @@
+@import "style/reset.css"; 
+
+@color-link:#f14f38;
+@color-body:#212121;
+@font-size: 14px;
+ @font-face {font-family:Roboto-Regular, sans-serif; src: url(font/Roboto-Regular.ttf);}
+ @font-face {font-family:Roboto-Light, sans-serif; src: url(font/Roboto-Light.ttf);}
+
+body{
+	background-color: #fff;
+	font: @font-size Roboto-Light, sans-serif;
+	color: @color-body;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.hide{
+display: none;
+}
+#wrapper{
+	width: 840px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+#logo{
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+#contact{
+	float: right;
+	margin: 35px 0 0 0;
+	position: relative;
+
+	.phone{
+		margin-right: 15px;
+		color: @color-body;
+		font-family: Roboto-Light, sans-serif;
+		font-size: @font-size;
+		vertical-align: baseline;
+
+		img{
+			margin-left: 3px;
+			vertical-align: baseline;
+		}
+	}
+
+	.email{ 
+		margin-right: 15px;
+		vertical-align: baseline;
+		a{
+		color: @color-link;
+		text-decoration: none;
+	}
+  }
+
+  .lang{
+  	padding: 0 12px 0 0;
+  	background: url(images/swich-row.gif) no-repeat right center;
+  	display: inline-block;
+  	cursor: pointer;
+  	img{
+  		margin-right: 5px;
+  		vertical-align: text-bottom;
+  	}
+  }
+
+  .lang-choce{
+  	position: absolute;
+  	right: -4px;
+  	top: 22px;
+  	background-color: #eef1f4;
+  	padding: 3px 16px;
+
+  	ul li{
+  		padding: 5px 0;
+  		cursor: pointer;
+  		&:first-child{
+  			padding-top: 10px;
+  		}
+  	}
+  }
+}
+
+#shadow-top{
+	background: url(images/shadow-top.gif) no-repeat center bottom;
+	padding: 18px 0;
+}
+
+/*content*/
+#main{
+	margin: 45px 0 0 0;
+}
+/*main content*/
+#content{
+	width: 520px;
+	float: left;
+
+	h1{
+		margin-bottom: 18px;
+		font-size: @font-size + 12px;
+	}
+	p{
+		padding: 12px 0;
+		font-family: Roboto-Regular, sans-serif;
+	}
+}
+
+/*sidebar*/
+#right-bar{
+	float: right;
+
+	.right li{
+		padding: 14px 0;
+	}
+}
+
+.nav a{
+	color: @color-link;
+	font-family: Roboto-Light, sans-serif;
+	text-decoration: none;
+	&:hover{
+	text-decoration: underline;
+	}
+} 
+
+a.activ{
+		border: 2px solid #f14f38;
+		padding: 6px 8px;
+		text-align: left;
+	}
+
+#shadow-bottom{
+	background: url(images/shadow-bottom.gif) no-repeat center bottom;
+	padding: 30px 0;
+}	
+/*footer*/
+#footer{
+	float: left;
+	margin: 40px 0 30px 0;
+	.bottom li{
+		float: left;
+		padding: 0 15px;
+		&:first-child{
+			padding-left: 0;
+		}
+	}
+}

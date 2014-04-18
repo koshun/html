@@ -1,0 +1,135 @@
+@import "style/reset.css";
+@font-face {
+  font-family: Roboto-Regular, sans-serif;
+  src: url(font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Light, sans-serif;
+  src: url(font/Roboto-Light.ttf);
+}
+body {
+  background-color: #fff;
+  font: 14px Roboto-Light, sans-serif;
+  color: #212121;
+}
+.clearfix {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+#wrapper {
+  width: 840px;
+  margin: 0 auto;
+}
+/*header*/
+#logo {
+  float: left;
+  margin: 20px 0 0 0;
+}
+#contact {
+  float: right;
+  margin: 35px 0 0 0;
+  position: relative;
+}
+#contact .phone {
+  margin-right: 15px;
+  color: #212121;
+  font-family: Roboto-Light, sans-serif;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+#contact .phone img {
+  margin-left: 3px;
+  vertical-align: baseline;
+}
+#contact .email {
+  margin-right: 15px;
+  vertical-align: baseline;
+}
+#contact .email a {
+  color: #f14f38;
+  text-decoration: none;
+}
+#contact .lang {
+  padding: 0 12px 0 0;
+  background: url(images/swich-row.gif) no-repeat right center;
+  display: inline-block;
+  cursor: pointer;
+  width:15px;
+}
+#contact .chose img {
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+#contact .lang-choce {
+  position: absolute;
+  right: -4px;
+  top: 22px;
+  background-color: #eef1f4;
+  padding: 3px 16px;
+}
+#contact .lang-choce ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+#contact .lang-choce ul li:first-child {
+  padding-top: 10px;
+}
+#shadow-top {
+  background: url(images/shadow-top.gif) no-repeat center bottom;
+  padding: 18px 0;
+}
+/*content*/
+#main {
+  margin: 45px 0 0 0;
+}
+/*main content*/
+#content {
+  width: 520px;
+  float: left;
+}
+#content h1 {
+  margin-bottom: 18px;
+  font-size: 26px;
+}
+#content p {
+  padding: 12px 0;
+  font-family: Roboto-Regular, sans-serif;
+}
+/*sidebar*/
+#right-bar {
+  float: right;
+}
+#right-bar .right li {
+  padding: 14px 0;
+}
+.nav a {
+  color: #f14f38;
+  font-family: Roboto-Light, sans-serif;
+  text-decoration: none;
+}
+/*.nav a:hover {
+  text-decoration: underline;
+}*/
+a.activ{
+  border: 2px solid #f14f38;
+  padding: 6px 8px;
+  text-align: left;
+}
+#shadow-bottom {
+  background: url(images/shadow-bottom.gif) no-repeat center bottom;
+  padding: 30px 0;
+}
+/*footer*/
+#footer {
+  float: left;
+  margin: 40px 0 30px 0;
+}
+#footer .bottom li {
+  float: left;
+  padding: 0 15px;
+}
+#footer .bottom li:first-child {
+  padding-left: 0;
+}

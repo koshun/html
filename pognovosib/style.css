@@ -1,0 +1,138 @@
+@import "style/reset.css";
+body {
+  background-color: #383e45;
+  font-family: "Times New Roman", Times, serif;
+}
+.clear {
+  clear: both;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+}
+/*Шапка сайта*/
+nav.header-info {
+  float: right;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+nav.header-info ul li {
+  float: left;
+  padding: 0 11px;
+  border-left: 1px dotted #b4b6af;
+  border-right: 1px dotted #b4b6af;
+}
+nav.header-info ul li:first-child {
+  border-right: none;
+}
+nav.header-info ul li a {
+  font: 14px "Times New Roman", Times, serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav.header-info ul li a:hover {
+  font-weight: bold;
+  text-align: justify;
+}
+div.head {
+  margin-top: 10px;
+  border-top: 1px dotted #565f6a;
+  overflow: hidden;
+}
+div.head a.logo {
+  display: block;
+  padding: 5px 0 15px 0;
+  float: left;
+}
+div.head div.date {
+  float: right;
+  margin: 25px 3px 0 0;
+  background-color: #3c434a;
+}
+div.head div.date span {
+  color: #ededed;
+  font-size: 30px;
+  padding: 5px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+div.img-head {
+  border: 6px solid #454d56;
+  width: 945px;
+  height: 380px;
+}
+#zoom img {
+  width: 945px;
+  height: 380px;
+}
+div.horizontal-separator {
+  margin: 0 auto;
+  width: 670px;
+  margin-bottom: 12px;
+}
+/*Контетн*/
+.main {
+  overflow: hidden;
+}
+.container {
+  float: left;
+  width: 300px;
+  margin: 0 10px 5px 10px;
+  background: url(images/foto-separator.gif) no-repeat 0 0;
+  position: relative;
+}
+.container #img-for-1 {
+  position: absolute;
+  top: 188px;
+  right: -10px;
+}
+.container #img-for-2 {
+  position: absolute;
+  top: 188px;
+  right: -10px;
+}
+.container .img-forecast {
+  border: 3px solid #454d56;
+  width: 300px;
+  height: 120px;
+}
+.container .img-forecast img {
+  width: 300px;
+  height: 120px;
+}
+.container h1 {
+  color: #858f9c;
+  text-align: center;
+  font-size: 18px;
+  font-family: impact, sans-serif;
+  margin: 16px;
+}
+.container table {
+  width: 100%;
+}
+.container table tr td.right {
+  float: right;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 1px 0;
+}
+.container table tr td.left {
+  float: left;
+  font-size: 18px;
+  color: #fff;
+  padding: 3px 0;
+  margin-top: 2px;
+}
+/*Подвал*/
+.footer {
+  background-color: #3e454d;
+  padding: 13px 0;
+}
+.footer p {
+  text-align: center;
+  color: #ededed;
+  font: 10px tahoma, sans-serif;
+  text-transform: uppercase;
+}

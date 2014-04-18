@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: "Open Sans Condensed Bold";
+  src: url("../fonts/plumb-regular-webfont.eot?") format("eot"), url("../fonts/plumb-regular-webfont.woff") format("woff"), url("../fonts/plumb-regular-webfont.ttf") format("truetype"), url("../fonts/plumb-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*varialbles*/
+.icon {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+}
+/*end variables*/
+body {
+  background-color: #ccd1c0;
+  font-family: plumbregular, sans-serif;
+  font-size: 13px;
+  color: #38441b;
+}
+a {
+  color: #be1a2a;
+}
+.clear {
+  clear: both;
+}
+.wrapper {
+  min-width: 960px;
+  max-width: 1920px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+}
+/*header*/
+.head {
+  background: #e6edd5 url('images/bg-top.jpg') repeat-x left top;
+  position: relative;
+  height: 500px;
+  /*logo*/
+  /*menu*/
+  /*icons*/
+}
+.head .logo {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.head .menu {
+  float: left;
+  margin: 50px 0 0 20.83333333333%;
+}
+.head .menu a {
+  text-transform: uppercase;
+  padding: 0 9px;
+}
+.head .menu a:hover {
+  text-decoration: none;
+}
+.head .ico {
+  float: right;
+  margin: 50px 30px 0 0;
+}
+.head .ico li {
+  padding: 0 19px;
+  float: left;
+  background: url('images/icon.gif') no-repeat 0px -11px;
+}
+.head .ico li:first-child {
+  background: none;
+}
+.head .ico .home {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  background: url('images/icon.gif') no-repeat 0 0;
+}
+.head .ico .mail {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  background: url('images/icon.gif') no-repeat -11px 0px;
+}
+.head .ico .sitemap {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  background: url('images/icon.gif') no-repeat -22px 0px;
+}
+.head .header-contact {
+  float: right;
+  margin: 40px 4.6875% 0 0;
+}
+.head .header-contact p {
+  color: #38441b;
+  line-height: 1.3em;
+  text-align: right;
+}
+.head .header-contact .phone {
+  color: #be1a2a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.head .header-contact .address {
+  font-size: 14px;
+}
+.head .header-contact a {
+  font-size: 12px;
+}
+.head .header-contact a:hover {
+  text-decoration: none;
+}
+.head .lider {
+  background: url('images/action-fon.png') no-repeat left top;
+  width: 397px;
+  height: 292px;
+  margin: 0  auto;
+  position: relative;
+  padding: 20px 0 0 50px;
+  top: 105px;
+}
+.head .lider .lider-sales {
+  position: absolute;
+  top: -15px;
+  left: 8px;
+}
+.head .lider h2 {
+  color: #be1a2a;
+  font-size: 22px;
+  padding-bottom: 4px;
+}
+.head .lider p {
+  font-size: 14px;
+}
+.head .flower-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.head .flower-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/*Карусель*/
+#wrap {
+  height: 220px;
+}
+/*content*/
+.content {
+  background: #ffffff url('images/bg-bottom.jpg') repeat-x left bottom;
+  overflow: hidden;
+}
+/*left column*/
+.left {
+  float: left;
+  margin: 25px 0 0 15px;
+  width: 29.6875%;
+}
+.left h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.left .left-colum-in {
+  margin-bottom: 25px;
+}
+.left .left-colum-in time {
+  display: block;
+  padding-bottom: 5px;
+}
+.left .left-colum-in a:hover {
+  text-decoration: none;
+}
+.left .left-colum-all {
+  text-align: center;
+  margin-top: 40px;
+}
+.left .left-colum-all a {
+  background-color: #f4f5f0;
+  padding: 7px 29px 5px 29px;
+}
+.left .left-colum-all a:hover {
+  text-decoration: none;
+}
+.left img {
+  margin-top: 20px;
+  margin-left: 38%;
+}
+/*right column*/
+.right {
+  float: right;
+  width: 65.625%;
+  margin: 25px 20px 0 0;
+}
+.right .right-colum-in h1 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.right .right-colum-in p {
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.right .right-colum-in p:last-child {
+  margin-bottom: 95px;
+}
+/*footer*/
+.footer {
+  background-color: #fff;
+  overflow: hidden;
+}
+.footer .logo-bottom {
+  margin: 3px 0 0 13.02083333333333%;
+  float: left;
+}
+.footer .menu-bottom {
+  float: left;
+  text-transform: uppercase;
+  margin: 30px 0 0 10.9375%;
+}
+.footer .menu-bottom a {
+  margin: 0 8px;
+  font-size: 11px;
+}
+.footer .menu-bottom a:hover {
+  text-decoration: none;
+}
+.footer .counter {
+  float: right;
+  margin: 15px 20px 0 0;
+}
